@@ -6,20 +6,21 @@
 
 .hlavni_logo {
     width: 75%;
-  }
+}
 
 .header {
-   background-color: #d0e2f2;
+    background-color: #d0e2f2;
     padding: 0;
 
 }
 
 table {
-   max-width: 200px;
-      
+    max-width: 200px;
+
 }
 
-th, td {
+th,
+td {
     background-color: transparent !important;
 }
 
@@ -39,14 +40,14 @@ main h1 {
 
 .route {
     background-color: #BDDBD9;
-    
- 
+
+
 }
 
 
 .wave {
     background-color: white;
-    
+
 }
 
 
@@ -64,8 +65,24 @@ footer {
 footer img {
     width: 50%;
     height: auto;
-   
+
 }
+
+.active {
+    font-weight: bold;
+
+}
+
+
+.menu_zavody {
+
+    background-color: #365875;
+    font-size: small;
+    color: white;
+
+}
+
+
 
 
 
@@ -81,7 +98,7 @@ footer img {
 
 @media screen and (max-width: 790px) {
     .podnadpis {
-        font-size: 1.3rem  !important;
+        font-size: 1.3rem !important;
 
     }
 
@@ -89,7 +106,7 @@ footer img {
         width: 50%;
     }
 
-   
+
 
     #countdown {
         font-size: 1rem;
@@ -106,7 +123,7 @@ footer img {
 
 
 @media screen and (max-width: 410px) {
-   
+
     .wrap {
         flex-direction: column;
         text-align: center;
